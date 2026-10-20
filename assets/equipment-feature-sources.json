@@ -1,0 +1,690 @@
+{
+  "purpose": "Full provenance for all five product-feature groups. Contains feature descriptions and source references only; no customer data, quotation prices, contacts or copied customer PDF.",
+  "review_method": "Read original app page2.py; visually inspect complete source quotation pages 2, 3 and 5 and twin brochure pages 2-7. Source files remain unchanged.",
+  "profiles": {
+    "LEGACY_FEATURES": {
+      "source_scope": "General descriptions reproduced from the earlier single-DG quotation and original app. Exact applicability to every catalog model is unverified.",
+      "supporting_original_code": "work/original/page2.py: add_page_two and add_page_three",
+      "title": "Product features & equipment",
+      "sections": {
+        "highlights": [
+          {
+            "text": "Designed for economical operation and maintenance, with a proven engine for rugged use.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Low operating and maintenance cost; proven engine and rugged usage."
+          },
+          {
+            "text": "Service interval: 500 operating hours / one year, subject to the selected model's confirmed maintenance schedule.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Maintenance interval printed as 500 Hrs./1Year. Restored only with model-specific confirmation."
+          },
+          {
+            "text": "Wide service network across India, with coordinated sales, service and spares support.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Wide service network across India; umbrella sales and service. Spares support also appears in the original company service description."
+          },
+          {
+            "text": "CPCB IV+ emission compliance and remote monitoring are subject to confirmation for the selected model and scope.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "CPCB IV+ compliant and remote monitoring. Both retained as model- and scope-dependent claims."
+          },
+          {
+            "text": "Compact footprint to support efficient use of installation space.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Low footprint."
+          },
+          {
+            "text": "Single-window warranty support; warranty duration and any extended 5C cover follow the confirmed commercial terms.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Single-window warranty policy and 5C extended coverage. Conflicting hard warranty periods are replaced with a reference to confirmed commercial terms."
+          }
+        ],
+        "engine": [
+          {
+            "text": "Mahindra four-stroke, inline, liquid-cooled engine.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Mahindra 4 Stroke, Inline, Liquid Cooled."
+          },
+          {
+            "text": "Mechanical engine configuration and fuel-consumption performance to be confirmed for the selected model.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Mechanical, Low Fuel Consumption. Mechanical configuration and consumption performance now require selected-model confirmation."
+          },
+          {
+            "text": "Dry air cleaner with indicator.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Dry Air Cleaner + Indicator."
+          },
+          {
+            "text": "Electric starter motor and battery-charging alternator.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Electrical Starter Motor + Charging Alt."
+          },
+          {
+            "text": "Lubricating oil and coolant supplied prefilled.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Lube Oil & Coolant Pre-filled."
+          },
+          {
+            "text": "Starting battery: one 12 V DC battery where applicable; confirm the selected model's starting system.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "1 x 12V DC Battery. Retained only where applicable with final starting-system confirmation."
+          },
+          {
+            "text": "Nominal engine speed: 1500 rpm, subject to model confirmation. Engine model and rated output are listed in the technical specifications.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Model, BHP and RPM: 1500. Speed is qualified; variable model and output ratings remain in technical specifications."
+          }
+        ],
+        "alternator": [
+          {
+            "text": "Brushless, revolving-field, self-excited design.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Brushless, Revolving Field, Self-excited."
+          },
+          {
+            "text": "H-class insulation.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "H-Class Insulation."
+          },
+          {
+            "text": "Compact, lightweight construction with sealed bearings.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Compact Build; Sealed Bearings; Light Weight."
+          },
+          {
+            "text": "IS/IEC 60034-1 conformity, subject to confirmation for the supplied alternator.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Complies with IS/IEC60034-1. Reworded as conformity subject to supplied-alternator confirmation."
+          },
+          {
+            "text": "Voltage, phase rating, power factor and permitted load imbalance must match the confirmed supplied configuration.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Original specifies 415 V, 0.8 PF and 10% phase imbalance under a single-phase quotation heading. Numeric claims are omitted from this shared profile; configuration-specific confirmation replaces them."
+          },
+          {
+            "text": "Selected kVA and kW ratings are listed in the technical specifications.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Capacity-specific kVA and kW values are retained in technical specifications, not repeated as fixed generic values."
+          }
+        ],
+        "controller": [
+          {
+            "text": "SEDEMAC GC111X family controller, where specified, with ARM-based processing, graphic LCD and backlit display.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Sedmac GC111X (ARM-based) with Graphic LCD & Backlit Display. Model is conditional; vendor name typography normalized."
+          },
+          {
+            "text": "Operating modes: AMF, manual and remote start/stop for supported single-phase and three-phase systems.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Modes: AMF, Manual, Remote Start/Stop (1 phase and 3 phase)."
+          },
+          {
+            "text": "Engine monitoring: oil pressure, coolant temperature, fuel level, battery condition and running hours.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Engine Monitoring: Oil Pressure, Coolant Temp, Fuel, Battery, Hours."
+          },
+          {
+            "text": "Alternator monitoring: line-to-neutral and line-to-line voltage, current, kW/kVA, frequency and power factor.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Alternator Monitoring: Voltage (L-N, L-L), Current, KW/KVA, Frequency, PF."
+          },
+          {
+            "text": "Engine protections: low oil pressure, high temperature, overspeed, sensor faults, low fuel and battery-voltage faults.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Protections: Low Oil, High Temp, Overspeed, Sensor Faults, Low Fuel, Battery Volts."
+          },
+          {
+            "text": "AC protections: under/over voltage and frequency, overload, load imbalance and sensing faults.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "AC Protections: Under/Over Voltage & Frequency, Overload, Load Imbalance, Sensing Faults."
+          },
+          {
+            "text": "Maintenance alerts based on running hours and service due date.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Maintenance Alerts: Run Hours & Due Date."
+          },
+          {
+            "text": "Communication interfaces: USB, RS485 and CAN; configuration through the front panel.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Communication: USB, RS485, CAN; Front Panel Configurable."
+          }
+        ],
+        "enclosure": [
+          {
+            "text": "Designed to meet applicable MoEF / CPCB requirements; confirm certification for the supplied enclosure and DG set.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Specifically designed to meet stringent MoEF / CPCB norms. Certification confirmation is explicit."
+          },
+          {
+            "text": "Operating range of 10 to 55 degrees C without external cooling is subject to confirmation for the selected model and site conditions.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Performs from 10 degrees C to 55 degrees C without external cooling. Retained only subject to selected-model and site confirmation."
+          },
+          {
+            "text": "Fade-resistant, UV-resistant powder-coated finish.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Fade-resistant UV powder-coated paint."
+          },
+          {
+            "text": "Fire-retardant acoustic insulation using PU foam or rockwool, as specified for the supplied enclosure.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Fire retardant insulation (PU Foam / Rockwool). Supplied-material qualification added."
+          },
+          {
+            "text": "Draw-out fuel tank for maintenance, with external fuel-filling provision outside the canopy.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Draw-out fuel tank for easy maintenance; external fuel filling provision outside canopy."
+          },
+          {
+            "text": "Compact footprint with easy access to serviceable components.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Compact design with lowest footprint; easy access for serviceable parts. Unsupported superlative lowest is removed without removing compactness or service access."
+          },
+          {
+            "text": "Common mild-steel base frame with anti-vibration mounting pads.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Mounted on common MS base frame with AVM pads."
+          },
+          {
+            "text": "Emission after-treatment system (ATS), as applicable to the confirmed model.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "After Treatment System (ATS) for emissions. Model applicability is explicit."
+          },
+          {
+            "text": "Model-specific dimensions and fuel-tank capacity are listed in the technical specifications.",
+            "source_file": "quotation_V-146-10.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Capacity-specific dimensions and fuel-tank capacity remain in technical specifications."
+          }
+        ]
+      },
+      "display_section_notes": {
+        "highlights": "Confirm model-specific service intervals, emission certification, monitoring and warranty scope.",
+        "engine": "Confirm final engine control type, fuel-consumption data and battery arrangement.",
+        "alternator": "Electrical ratings must match the confirmed model and phase selection.",
+        "controller": "Confirm the controller model and enabled functions for the supplied system. AMF operating capability does not mean that a separately priced AMF panel is included.",
+        "enclosure": "Confirm construction, temperature capability, acoustic performance and compliance for the selected model."
+      },
+      "display_note": "General feature descriptions; final equipment configuration, certification and included scope must be confirmed for the selected model. Model ratings are listed in the technical specifications."
+    },
+    "TWIN_500_FEATURES": {
+      "source_scope": "Supplied 500/640 kVA twin DG brochure; technical values taken only from its 500 kVA column.",
+      "supporting_original_code": null,
+      "title": "Twin DG features & equipment",
+      "sections": {
+        "highlights": [
+          {
+            "text": "Twin-engine arrangement supports parallel or single-engine operation to match changing demand.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              2
+            ],
+            "evidence": "Parallel or single-engine operation to match actual load requirements."
+          },
+          {
+            "text": "Intelligent load sharing and selective engine operation support efficient partial-load running.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              2,
+              3
+            ],
+            "evidence": "Intelligent load distribution and selective operation for efficient partial-load operation."
+          },
+          {
+            "text": "Dual-unit architecture provides redundancy and operational flexibility during maintenance or component issues.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Dual-unit redundancy, operational security and availability during maintenance/component issues. No full-load availability guarantee is added."
+          },
+          {
+            "text": "Designed for fluctuating power requirements, with benefits for non-linear loads and motor starting described in the brochure.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              4
+            ],
+            "evidence": "Fluctuating power need, better non-linear load performance and higher motor starting capability."
+          },
+          {
+            "text": "Coordinated monitoring and maintenance support uptime and equipment life.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              3,
+              5
+            ],
+            "evidence": "Predictive/preventive maintenance and monitoring support uptime and equipment life."
+          },
+          {
+            "text": "Remote monitoring through app and web platforms supports generator or fleet oversight.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              5
+            ],
+            "evidence": "App- and web-based remote monitoring of a generator or fleet."
+          }
+        ],
+        "engine": [
+          {
+            "text": "Mahindra H6935G1 electronic engines with TCIC aspiration.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Engine make Mahindra & Mahindra; H6935G1; Electronic; aspiration TCIC."
+          },
+          {
+            "text": "Six cylinders per engine (6 x 2); displacement 9.3 x 2 L.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Cylinders 6 x 2; displacement 9.3 x 2 L."
+          },
+          {
+            "text": "Engine speed: 1500 rpm. Starting system: 24 V.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "50 Hz / 1500 rpm; starting system 24 V."
+          },
+          {
+            "text": "Rated engine output: 620 hp, as printed in the brochure.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Rated Power Output (Hp): 620. Source does not explicitly say per-engine or combined."
+          },
+          {
+            "text": "Lubricating oil capacity: 35 x 2 L. Coolant capacity: 31 x 2 L.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Total lube oil capacity 35 x 2 L; system coolant capacity 31 x 2 L."
+          },
+          {
+            "text": "Lubricating oil change interval: 500 operating hours.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Lube oil change period: 500 Hrs. No one-year condition is added."
+          }
+        ],
+        "alternator": [
+          {
+            "text": "CG / LS / Stamford or equivalent.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Make CG/LS/Stamford/Equivalent."
+          },
+          {
+            "text": "IP23 enclosure with H-class insulation.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Enclosure type IP23; insulation class H."
+          },
+          {
+            "text": "Voltage regulation: +/- 1%.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Voltage regulation +/- 1%."
+          },
+          {
+            "text": "Maximum unbalanced load across phases: 25%.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Maximum unbalanced load across phases: 25%."
+          },
+          {
+            "text": "415 V, three-phase, 50 Hz; 0.8 lagging power factor.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "415 V; 3 phases; 50 Hz; 0.8 lagging power factor."
+          },
+          {
+            "text": "Prime system output: 500 kVA / 400 kW.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Prime duty; 500 kVA; 400 kW system rating."
+          }
+        ],
+        "controller": [
+          {
+            "text": "Intelligent synchronization and real-time monitoring coordinate the two generating units.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              4
+            ],
+            "evidence": "Advanced control algorithms, real-time monitoring and intelligent synchronization. Controller photographs do not establish a universal model number."
+          },
+          {
+            "text": "Parallel and single-engine operating modes allow output to follow the load requirement.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              2,
+              4
+            ],
+            "evidence": "Parallel or single-engine mode and twin synchronization logic."
+          },
+          {
+            "text": "Automated failover capabilities support continued operation within the available generating capacity.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              3
+            ],
+            "evidence": "Automated failover capabilities. Wording limits continued operation to available generating capacity rather than promising uninterrupted full capacity."
+          },
+          {
+            "text": "Remote monitoring covers running hours, engine health, rpm, error logs and operating parameters through app and web platforms.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              5
+            ],
+            "evidence": "Running hours, health, RPM, errors and operating parameters via app/web remote monitoring."
+          },
+          {
+            "text": "Maintenance support includes A-check/B-check notifications, preventive schedules and automated maintenance reminders.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              5
+            ],
+            "evidence": "A-check/B-check notifications, tailored preventive maintenance schedules and automation of maintenance tasks."
+          },
+          {
+            "text": "Fuel management tracks filling events, consumption patterns and fuel traceability.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              5
+            ],
+            "evidence": "Fuel-event records, fuel consumption patterns and traceability."
+          }
+        ],
+        "enclosure": [
+          {
+            "text": "Twin engines and alternators are arranged on a common base with a central control-panel assembly, as illustrated in the brochure.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              3,
+              7
+            ],
+            "evidence": "Visual illustration shows twin engines and alternators on a common base with central control/AMF panel. This is an illustration observation, not a contractual scope assertion."
+          },
+          {
+            "text": "The illustrated arrangement includes radiators, air-filter assemblies, batteries and ATS assemblies.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              7
+            ],
+            "evidence": "Illustration labels radiator, air-filter assembly, batteries and ATS. ATS abbreviation is retained without assigning an unsupported expansion."
+          },
+          {
+            "text": "Integrated fuel-tank capacity: 780 L. DEF tanks: 50 + 50 L.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Fuel tank 780 L; DEF tank 50 + 50 L."
+          },
+          {
+            "text": "Approximate overall dimensions (L x W x H): 8800 x 1600 x 1975 mm.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              6
+            ],
+            "evidence": "Approximate dimensions 8800 x 1600 x 1975 mm."
+          },
+          {
+            "text": "Cold-starting system, PMG, RTD, BTD, space heater and external AVR are listed as optional accessories.",
+            "source_file": "TWIN GENSET_Brochure_Final.pdf",
+            "source_pages": [
+              5
+            ],
+            "evidence": "Optional accessories: Cold Starting System, PMG, RTD, BTD, Space heater, External AVR."
+          }
+        ]
+      },
+      "display_section_notes": {
+        "highlights": "Performance and running-cost benefits depend on load profile and operating conditions; no quantified savings or uninterrupted full-load output are guaranteed.",
+        "engine": "The brochure prints 620 hp without explicitly identifying it as a per-engine or combined value. Final engine supply details require confirmation.",
+        "alternator": "Specifications are from the 500 kVA column of the supplied twin DG brochure.",
+        "controller": "Confirm controller model, interfaces, enabled protections and connectivity scope. The illustrated AMF/control arrangement does not establish inclusion of a separately priced AMF panel.",
+        "enclosure": "Confirm enclosure finish, acoustic rating, temperature range and certification. Optional accessories are included only when expressly priced in the quotation."
+      },
+      "display_note": "Source: supplied Twin DG Set 500/640 kVA brochure, pages 2-7. These descriptions apply to the 500 kVA (250 x 2) configuration. Confirm the final supplied configuration before order."
+    }
+  },
+  "omissions_and_resolutions": [
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        2,
+        5
+      ],
+      "claim": "Warranty duration/hour limits conflict; original app also selects a shorter warranty for any capacity starting with 5.",
+      "resolution": "Single-window warranty support and any extended 5C cover are retained, governed by final commercial terms. No hard warranty duration, hour limit or unexplained five-year entitlement is asserted."
+    },
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        2
+      ],
+      "claim": "415 V, 0.8 PF and 10% maximum phase imbalance appear under a single-phase heading.",
+      "resolution": "Numbers are not displayed in the shared legacy profile, even conditionally. Voltage, phase, power factor and imbalance are to match the confirmed supplied configuration."
+    },
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        2
+      ],
+      "claim": "Mechanical engine control and a single 12 V starting battery are generic original text.",
+      "resolution": "Retained as explicitly model-dependent legacy descriptions; never transferred to 500 kVA twin, whose brochure specifies electronic engines and 24 V starting."
+    },
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        2,
+        3
+      ],
+      "claim": "CPCB IV+, 500-hour/one-year maintenance and 10-55 degrees C operation are generalized.",
+      "resolution": "Retained only in the legacy profile with explicit model, certification and site confirmation. No legacy temperature or service-year condition is asserted for twin DG."
+    },
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        2
+      ],
+      "claim": "Controller supports AMF operating mode.",
+      "resolution": "Controller functions and interfaces are restored, with final model/enabled-function confirmation. AMF operating capability does not imply inclusion of an independently priced AMF panel."
+    },
+    {
+      "source_file": "quotation_V-146-10.pdf",
+      "source_pages": [
+        3
+      ],
+      "claim": "Lowest footprint.",
+      "resolution": "Compact footprint retained; unsupported universal comparative superlative removed."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        4
+      ],
+      "claim": "Up to 40% reduction in fuel consumption and CO2 emissions.",
+      "resolution": "Qualitative demand matching and running-efficiency benefits retained. Percentage omitted because the brochure supplies no test basis or guaranteed operating conditions."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        3
+      ],
+      "claim": "Uninterrupted power and automated failover.",
+      "resolution": "Redundancy and automated failover retained without promising full rated output after loss of one generating unit; continued operation is bounded by available capacity."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        4,
+        7
+      ],
+      "claim": "Controller pictures and an illustrated AMF panel.",
+      "resolution": "No SEDEMAC GC111X, USB, RS485, CAN or detailed legacy protection list is assigned to the twin system. Final controller and priced panel scope require confirmation."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        6
+      ],
+      "claim": "620 hp rated engine output.",
+      "resolution": "Preserved as printed without asserting it is per engine or combined."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        4,
+        6
+      ],
+      "claim": "400 kVA (200 x 2) requested configuration.",
+      "resolution": "No 400 kVA feature profile; source covers 500/640 kVA only. Engine, alternator, controller and enclosure details await supplier confirmation."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        6
+      ],
+      "claim": "Legacy brushless, self-excited, sealed-bearing and IS/IEC 60034-1 statements.",
+      "resolution": "Not transferred to twin profile because the twin brochure does not establish them."
+    },
+    {
+      "source_file": "TWIN GENSET_Brochure_Final.pdf",
+      "source_pages": [
+        5
+      ],
+      "claim": "Optional accessories.",
+      "resolution": "Retained as optional descriptions only; included commercially only when expressly priced."
+    }
+  ]
+}

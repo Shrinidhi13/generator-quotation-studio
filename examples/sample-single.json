@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "3aaa8e1e-63c6-493b-84c8-61ff3f515afe",
+  "lead_ref": "DEMO-001",
+  "quote_number": "TEMS-DEMO-SINGLE",
+  "revision": 0,
+  "date": "2026-10-12",
+  "valid_days": 8,
+  "mode": "alternatives",
+  "include_specs": true,
+  "customer": {
+    "name": "Sample Industries Pvt. Ltd.",
+    "address": "Kolhapur, Maharashtra",
+    "attention": "Purchase department",
+    "phone": "",
+    "email": "",
+    "gstin": ""
+  },
+  "reference": {
+    "source": "Meeting",
+    "meeting_date": "2026-10-11",
+    "previous_quote": "",
+    "discussion": "DEMONSTRATION ONLY. Illustrative prices; not a commercial offer."
+  },
+  "seller": {
+    "name": "Techno Electromechs",
+    "contact": "Venkatesh Bhat",
+    "phone": "9823012044 / 9022330752",
+    "email": "techno.tems@gmail.com",
+    "address": "54/15 A, SHRI-NIVASA, Near Vasantrao Chougule School, Morewadi Road, Kolhapur - 416004",
+    "gstin": ""
+  },
+  "options": [
+    {
+      "id": "ecc92936-7dd7-4f95-9291-f0307241b88d",
+      "capacity": "125 KVA",
+      "phase": "3 Phase",
+      "quantity": 1,
+      "unit_price": "385000",
+      "gst_rate": "18",
+      "discount": "0.00",
+      "transport": "8000",
+      "transport_gst": "18",
+      "amf_mode": "Included",
+      "amf_price": "16500",
+      "amf_quantity": 1,
+      "amf_gst": "18",
+      "others": [
+        {
+          "description": "Installation and commissioning",
+          "quantity": 1,
+          "unit_price": "25000",
+          "gst_rate": "18",
+          "optional": false
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "terms": {
+    "payment": "100% advance for immediate delivery, or 30% advance with the order and the balance 70% against pro forma invoice before dispatch.",
+    "delivery": "2-4 weeks from receipt of order and advance, subject to availability and written confirmation.",
+    "warranty": "As per the applicable manufacturer warranty for the selected model, to be confirmed in the order acknowledgement.",
+    "scope": "Supply is limited to the equipment and services explicitly priced as included in this quotation. Optional items are excluded from the offer total unless accepted separately.",
+    "exclusions": "Unpriced unloading, civil foundation, earthing, power and control cabling, exhaust piping, changeover switches and installation are excluded. Statutory approvals are to the customer account. Transit insurance is excluded unless expressly included in a priced line.",
+    "additional": "SAMPLE DOCUMENT. Replace all example prices and customer details before use. Customer to mention GST/TAN/PAN and date on the purchase order. If delivery is deferred, a revised schedule and any price implications will be mutually agreed. Cancellation charges: 2.5% of the basic order value. Disputes are subject to arbitration under the Arbitration and Conciliation Act, 1996, at the applicable jurisdiction."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "35234adc-a60f-40cb-a2a9-1c397d915233",
+  "lead_ref": "DEMO-001",
+  "quote_number": "TEMS-DEMO-COMPARE",
+  "revision": 1,
+  "date": "2026-10-12",
+  "valid_days": 8,
+  "mode": "alternatives",
+  "include_specs": true,
+  "customer": {
+    "name": "Sample Industries Pvt. Ltd.",
+    "address": "Kolhapur, Maharashtra",
+    "attention": "Purchase department",
+    "phone": "",
+    "email": "",
+    "gstin": ""
+  },
+  "reference": {
+    "source": "Meeting",
+    "meeting_date": "2026-10-11",
+    "previous_quote": "TEMS-DEMO-001 / R00 dated 2026-10-12",
+    "discussion": "DEMONSTRATION ONLY. Illustrative prices; not a commercial offer."
+  },
+  "seller": {
+    "name": "Techno Electromechs",
+    "contact": "Venkatesh Bhat",
+    "phone": "9823012044 / 9022330752",
+    "email": "techno.tems@gmail.com",
+    "address": "54/15 A, SHRI-NIVASA, Near Vasantrao Chougule School, Morewadi Road, Kolhapur - 416004",
+    "gstin": ""
+  },
+  "options": [
+    {
+      "id": "4651aeb2-7ced-46a1-8524-0fbadaa7ba41",
+      "capacity": "400 KVA (200 x 2)",
+      "phase": "3 Phase",
+      "quantity": 1,
+      "unit_price": "3600000",
+      "gst_rate": "18",
+      "discount": "0.00",
+      "transport": "20000",
+      "transport_gst": "18",
+      "amf_mode": "Not required",
+      "amf_price": "0.00",
+      "amf_quantity": 1,
+      "amf_gst": "18",
+      "others": [],
+      "notes": "Illustrative price only. Configuration and technical details require supplier confirmation."
+    },
+    {
+      "id": "79be2ed6-4799-4ec5-a687-c396493f9cc8",
+      "capacity": "500 KVA (250 x 2)",
+      "phase": "3 Phase",
+      "quantity": 1,
+      "unit_price": "4500000",
+      "gst_rate": "18",
+      "discount": "0.00",
+      "transport": "25000",
+      "transport_gst": "18",
+      "amf_mode": "Optional",
+      "amf_price": "80000",
+      "amf_quantity": 1,
+      "amf_gst": "18",
+      "others": [],
+      "notes": ""
+    }
+  ],
+  "terms": {
+    "payment": "100% advance for immediate delivery, or 30% advance with the order and the balance 70% against pro forma invoice before dispatch.",
+    "delivery": "2-4 weeks from receipt of order and advance, subject to availability and written confirmation.",
+    "warranty": "As per the applicable manufacturer warranty for the selected model, to be confirmed in the order acknowledgement.",
+    "scope": "Supply is limited to the equipment and services explicitly priced as included in this quotation. Optional items are excluded from the offer total unless accepted separately.",
+    "exclusions": "Unpriced unloading, civil foundation, earthing, power and control cabling, exhaust piping, changeover switches and installation are excluded. Statutory approvals are to the customer account. Transit insurance is excluded unless expressly included in a priced line.",
+    "additional": "SAMPLE DOCUMENT. Replace all example prices and customer details before use. Customer to mention GST/TAN/PAN and date on the purchase order. If delivery is deferred, a revised schedule and any price implications will be mutually agreed. Cancellation charges: 2.5% of the basic order value. Disputes are subject to arbitration under the Arbitration and Conciliation Act, 1996, at the applicable jurisdiction."
+  }
+}

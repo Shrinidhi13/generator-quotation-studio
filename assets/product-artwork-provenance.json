@@ -1,0 +1,42 @@
+{
+  "method": "Built-in image_gen tool; background-extraction edit with transparent_background=true, one tool call per source image. Original source assets preserved. Generated PNG files copied without pixel alteration.",
+  "intended_use": "Representative product artwork for quotation presentation; not a technical representation or specification source.",
+  "created_date": "2026-10-10",
+  "assets": [
+    {
+      "source": "features.png",
+      "output": "product-single-premium.png",
+      "prompt": "Use case: background-extraction.\nAsset type: representative single diesel generator product cutout for a premium industrial quotation.\nInput image 1 is the edit target: the original low-resolution Mahindra red/orange single generator photograph.\nPrimary request: remove ONLY the existing flat grey background, leaving a genuinely transparent alpha background. Gently clean compression artifacts and upscale for print, without reconstructing or inventing technical details.\nComposition: retain the exact original three-quarter camera angle, silhouette, proportions, full base and exhaust, door arrangement, louvers, handles, controls and panels. Keep all of the generator inside the frame with modest transparent margin.\nConstraints: preserve the exact product's red/orange color, green stripe, black base, original lighting and all authentic brand markings in their original positions. Do not invent sharper model labels, no added text or fabricated readable lettering. Preserve indistinct small markings rather than imagining their contents. No new machinery, no changed parts, no dramatic relighting, no ground or scenery, no background pattern, no watermark. Output a clean PNG with actual transparent alpha, not white or checkerboard pixels.",
+      "generated_source": "exec-c343a47b-4119-49e4-961b-915e89abb2e7.png",
+      "dimensions": [
+        1381,
+        1139
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 555683,
+      "inspection": "Full product broadly retains original three-quarter viewpoint, red enclosure, green stripe, black base, louvers, doors and controls. AI cleanup reconstructs details from a very low-resolution source, so exact small markings and technical features cannot be certified identical. Some faint red edge pixels remain."
+    },
+    {
+      "source": "twin-genset.png",
+      "output": "product-twin-premium.png",
+      "prompt": "Use case: background-extraction.\nAsset type: representative twin diesel generator product cutout for a premium industrial quotation.\nInput image 1 is the edit target: the actual supplied Mahindra Powerol twin-generator brochure photograph.\nPrimary request: remove ONLY the red/black patterned backdrop and surrounding white background. Keep the entire actual twin generator and its attached base, creating a genuine transparent-alpha PNG. Clean compression gently for print.\nComposition: preserve the exact original wide front-on camera angle, silhouette, length-to-height ratio, red/orange enclosure, both exhaust assemblies above the enclosure, both blue vertical EFFICIENT POWER strips, all original door sections, hinges, vent grids, locks, the central black control-panel window and the metal base. Keep the entire product inside the frame with a small transparent margin.\nConstraints: all original authentic brand markings stay in the same positions and unchanged; preserve the recognizable Powerol logos and TWIN GENSET logo as source artwork. No invented sharper model labels, no additional text, no added equipment, no altered controls, no new shadow, no changed viewpoint or product geometry. Do not invent tiny details that cannot be resolved. The only intended alteration is removal of the background with restrained compression cleanup. No scenery, no background pattern, no white rectangle, no rendered checkerboard, no watermark. Actual transparent alpha is essential.",
+      "generated_source": "exec-a85d2184-6edb-4c67-a1ca-f5e4dc53682f.png",
+      "dimensions": [
+        1960,
+        802
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 589869,
+      "inspection": "Front-on twin enclosure, dual exhaust assemblies, major panels and logos retained. Background removed, including silver display/platform outside the black generator base; therefore not a pixel-exact source cutout. Some faint red edge pixels remain. Small text should not be treated as authoritative."
+    }
+  ],
+  "caution": "Do not describe these generated edits as manufacturer-approved or exact archival product photographs. Use the original source artwork if exact geometry/markings must be guaranteed."
+}

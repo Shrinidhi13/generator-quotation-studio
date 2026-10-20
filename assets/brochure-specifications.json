@@ -1,0 +1,146 @@
+{
+  "source": "TWIN_GENSET_Brochure.pdf",
+  "review": "All seven pages visually reviewed. PDF has outlined/rasterized text; empty text extraction is expected. Specifications manually transcribed from page 6.",
+  "source_title": "TWIN DG Set 500 kVA & 640 kVA",
+  "configurations": {
+    "500": {
+      "configuration": "250 kVA x 2",
+      "configuration_source_page": 4,
+      "specifications_source_page": 6,
+      "genset_rating_kva": 500,
+      "genset_model": "MT500DR",
+      "duty": "Prime",
+      "power_rating_kw": 400,
+      "phases": 3,
+      "output_voltage_v": 415,
+      "power_factor_lagging": 0.8,
+      "current_a_3phase": 695,
+      "frequency_hz": 50,
+      "rpm": 1500,
+      "governing_class": "G3/G2",
+      "starting_system": "24 V",
+      "fuel_tank_capacity_l": 780,
+      "def_tank_capacity_l": "50 + 50",
+      "genset_dimension_lwh_mm_approx": "8800 x 1600 x 1975",
+      "engine": {
+        "make": "Mahindra & Mahindra Ltd.",
+        "model": "H6935G1",
+        "type": "Electronic",
+        "rated_power_output_hp_as_printed": 620,
+        "aspiration": "TCIC",
+        "cylinders": "6 x 2",
+        "bore_stroke_mm": "116.6 x 146.1",
+        "displacement_l": "9.3 x 2",
+        "total_lube_oil_capacity_l": "35 x 2",
+        "lube_oil_change_period": "500 Hrs",
+        "system_coolant_capacity_l": "31 x 2"
+      },
+      "alternator": {
+        "make": "CG/LS/Stamford/Equivalent",
+        "enclosure_type": "IP23",
+        "voltage_regulation": "+/- 1%",
+        "insulation_class": "H",
+        "maximum_unbalanced_load_across_phases": "25%"
+      }
+    },
+    "400": {
+      "configuration": "200 kVA x 2",
+      "status": "Requested by user; not covered in provided brochure. Do not copy technical values, model, price or dimensions from 500 kVA."
+    },
+    "640": {
+      "configuration": "320 kVA x 2",
+      "status": "Covered by brochure but not requested by user. No need to add this to requested catalog."
+    }
+  },
+  "safe_descriptive_features": [
+    {
+      "text": "Twin configuration supports parallel or single-engine operation to suit demand.",
+      "page": 2
+    },
+    {
+      "text": "Intelligent synchronization shares workload across the two engines.",
+      "page": 2
+    },
+    {
+      "text": "Remote monitoring described for operating hours, engine health, RPM and error logs through app/web platforms.",
+      "page": 5
+    }
+  ],
+  "optional_accessories": {
+    "page": 5,
+    "items": [
+      "Cold Starting System",
+      "PMG",
+      "RTD",
+      "BTD",
+      "Space heater",
+      "External AVR"
+    ]
+  },
+  "uncertainties": [
+    "The supplied brochure does not establish specifications or availability of the requested 400 kVA (200 x 2) configuration.",
+    "Product photograph appears on the cover for the 500 and 640 kVA family; it is not uniquely labeled as a specific model. Caption it as a representative twin DG image.",
+    "Page 6 says rated power output 620 hp for the 500 kVA column without expressly saying per-engine or total. Preserve 620 hp as printed without inventing interpretation.",
+    "No product price, tax rate, delivery time, warranty duration, sound level, equipment weight or explicit CPCB IV+ certification statement is supplied in this brochure.",
+    "Dimensions explicitly approximate. Do not remove that qualification.",
+    "Fuel consumption and emissions savings on page 4 are marketing claims (up to 40%) without a specified test basis; avoid turning them into a guarantee."
+  ],
+  "assets": [
+    {
+      "file": "twin-genset.png",
+      "page": 1,
+      "caption": "Representative Mahindra Powerol twin DG set (500/640 kVA brochure).",
+      "method": "Embedded Im29.tif extracted and converted CMYK to RGB PNG; original background preserved.",
+      "dimensions_px": [
+        2434,
+        997
+      ]
+    },
+    {
+      "file": "twin-genset-cutaway.png",
+      "page": 3,
+      "caption": "Twin genset architecture illustration from the supplied brochure.",
+      "method": "Embedded Im45.tif extracted and converted CMYK to RGB PNG; original illustration unmodified.",
+      "dimensions_px": [
+        2127,
+        880
+      ]
+    },
+    {
+      "file": "twin-genset-components.png",
+      "page": 7,
+      "caption": "Twin genset assembly illustration. Source labels are separate PDF objects and are not included in this embedded image.",
+      "method": "Embedded Im147.tif extracted and converted CMYK to RGB PNG.",
+      "dimensions_px": [
+        2471,
+        890
+      ]
+    },
+    {
+      "file": "twin-controller.png",
+      "page": 4,
+      "caption": "Controller pictured in the twin DG brochure.",
+      "method": "Embedded Im50.tif extracted and converted CMYK to RGB PNG.",
+      "dimensions_px": [
+        436,
+        354
+      ]
+    },
+    {
+      "file": "remote-monitoring.png",
+      "page": 5,
+      "caption": "Representative remote monitoring interface from the brochure.",
+      "method": "Embedded Im55.tif extracted and converted CMYK to RGB PNG.",
+      "dimensions_px": [
+        831,
+        392
+      ]
+    },
+    {
+      "file": "twin-specifications.png",
+      "page": 6,
+      "caption": "Technical specifications for 500 and 640 kVA twin DG sets.",
+      "method": "Full page rendered at 144 DPI."
+    }
+  ]
+}
