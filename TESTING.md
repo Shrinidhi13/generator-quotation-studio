@@ -8,6 +8,8 @@ The hosting configuration no longer fixes the server address to localhost. The W
 
 The complete current suite passed on 20 October 2026: **98 tests passed in 47.67 seconds**, on Windows with Python 3.12. Coverage includes quotation calculations, all five feature groups, PDF page order, backup validation, current-session isolation and removal of disk persistence from the app. Every UI test rejects calls to the legacy disk save/load/list helpers; the tests also verify that no draft directory is created. Separate visitor sessions do not share customer fields or PDF output. Starting a new quotation clears the previous customer and generated PDF.
 
+The public deployment at https://techno-quotation-studio.streamlit.app/ was verified on 20 October without a hosting-account login. A demonstration 500 kVA twin quotation was generated and downloaded from the hosted app: equipment 3,900,000 + transportation 40,000 + GST 709,200 = 4,649,200. Its downloaded PDF has six pages, all five feature groups, pricing on page 5 and commercial terms on page 6; extracted text stays within page bounds. At a 390-pixel mobile viewport, the app's document width is 390 pixels with no horizontal overflow.
+
 The results below document earlier visual and browser checks. Saved-library and disk-write results describe removed app behavior. A successful local suite does not by itself verify a hosted deployment.
 
 ## Historical local verification — 12–15 October 2026

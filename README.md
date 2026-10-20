@@ -1,6 +1,8 @@
 # Generator Quotation Studio
 
-A simple quotation desk for Techno Electromechs, built from the existing Generator Quotation App. All code, original PNG assets and the supplied twin-genset brochure are included. This edition is prepared for its own repository, `generator-quotation-studio`, separate from the original GitHub project.
+[Open the quotation app](https://techno-quotation-studio.streamlit.app/) — available on laptop and mobile through Streamlit Community Cloud.
+
+A simple quotation desk for Techno Electromechs, built from the existing Generator Quotation App. All code, original PNG assets and the supplied twin-genset brochure are included. This edition has its own repository, `generator-quotation-studio`, separate from the original GitHub project.
 
 Create a quotation, download its PDF and start the next one. The current quotation is held only for the active browser session: there is no saved-quotation library or automatic saving to the computer or shared server. Closing or refreshing the page may clear the form. An optional editable JSON backup lets you download your work and restore it later.
 
